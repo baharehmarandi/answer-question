@@ -1,0 +1,33 @@
+.answer>label, .respondent>label, .score>label{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+input[type=text], input[type=number]{
+    border: 1px solid #DEDEDE;
+}
+
+input[type=text]:focus, input[type=number]:focus{
+    border: 1px solid #DEDEDE;
+    outline: none;
+}
+
+.answer-error, .respondent-error, .score-error{
+    font-size: 14px;
+    color: #FE7755;
+}
+
+.answer-submit-btn{
+    height: 36px;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    border: none;
+}
+
+.modal-header .btn-close {
+    padding: calc(var(--bs-modal-header-padding-y) * .5) calc(var(--bs-modal-header-padding-x) * .5);
+    margin: calc(-.5 * var(--bs-modal-header-padding-y)) auto calc(-.5 * var(--bs-modal-header-padding-x)) calc(-.5 * var(--bs-modal-header-padding-y))!important;
+}

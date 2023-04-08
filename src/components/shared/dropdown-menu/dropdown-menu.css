@@ -1,0 +1,18 @@
+.dropdown-btn{
+    width: 24px;
+    background-color: inherit;
+    border: inherit!important;
+    padding: 6px!important;
+}
+
+.dropdown-btn:hover{
+    background-color: unset!important;
+}
+
+.dropdown-btn::after{
+    display: none!important;
+}
+
+.dropdown-btn:enabled{
+    background-color: unset!important;
+}
